@@ -1,8 +1,9 @@
 // Configure the Google Cloud provider
 provider "google" {
- credentials = "${file("credential.json")}"
- project     = "terraform-reo"
- region      = "us-central1"
+  credentials = file("credentials.json")
+
+  project     = "strong-phalanx-264015"
+  region      = "us-central1"
 }
 
 // Create a GCE instance
