@@ -17,7 +17,10 @@ resource "google_compute_instance" "default" {
     }
   }
   222
-  
+  2
+  2
+  2
+  2
 
   network_interface {
     network = "default"
