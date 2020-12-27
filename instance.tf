@@ -16,11 +16,7 @@ resource "google_compute_instance" "default" {
       image = "centos-cloud/centos-7"
     }
   }
-  222
-  2
-  2
-  2
-  2
+
 
   network_interface {
     network = "default"
