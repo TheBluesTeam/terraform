@@ -1,0 +1,2 @@
+terraform validate  //문법검사
+terraform fmt       //정렬
